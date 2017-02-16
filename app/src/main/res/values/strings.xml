@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">SimpleTodo</string>
+    <string name="app_name">Simple Todo</string>
+    <string name="title_activity_edit_item">Edit Item</string>
+    <string name="title_activity_add_new_item">New Item</string>
+    <string name="title_activity_view_item">View Item</string>
+    <string name="about_me">About Me</string>
+    <string name="phone_num_link"><a href="tel:01286252840">01286252840</a></string>
+    <string name="gmail_link"><a href="mailto:minhnpa1907@gmail.com">minhnpa1907@gmail.com</a></string>
+    <string name="google_plus_link"><a href="https://plus.google.com/113466095852198098072">MINH NGUYEN</a></string>
+    <string name="facebook_link"><a href="https://www.facebook.com/minhnpa1907">Nguyễn Phạm Anh Minh</a></string>
+    <string name="gmail">Gmail</string>
+    <string name="phone_num">Phone Number</string>
+    <string name="google_plus">Google+</string>
+    <string name="facebook">Facebook</string>
+    <string name="my_full_name">NGUYỄN PHẠM ANH MINH</string>
+    <string name="birth_info">Born on July 19, 1995</string>
+    <string name="work_info">Studies at Banking University of Ho Chi Minh City</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="deleted_snackbar_text">Deleted</string>
 </resources>

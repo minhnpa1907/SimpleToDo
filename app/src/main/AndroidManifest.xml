@@ -6,9 +6,38 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:supportsRtl="true">
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.EditItemActivity"
+            android:label="@string/title_activity_edit_item"
+            android:theme="@style/ToolBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.EnterNewItem"
+            android:label="@string/title_activity_add_new_item"
+            android:theme="@style/ToolBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.ItemView"
+            android:label="@string/title_activity_view_item"
+            android:theme="@style/ToolBar" />
+        <activity
+            android:name=".activities.AboutMeActivity"
+            android:label="About Me"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
